@@ -1,0 +1,95 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(FONDO_LICEO.jpeg);  /* Imagen de fondo del cuerpo */
+    background-size: cover; /* Cubrir todo el fondo */
+    background-position: center; /* Centrar la imagen */
+}
+
+/* Estilos del encabezado */
+header {
+    background: #054112;
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.logo-header {
+    position: absolute; /* Posicionamiento absoluto respecto al header */
+    top: 3%; /* Centrar verticalmente */
+    height: 80px; /* Tamaño de los logos, ajusta según necesites */
+    width: auto;
+
+}
+
+.logo-header.left {
+    left: 20px; /* Distancia desde el borde izquierdo del header */
+}
+
+.logo-header.right {
+    right: 20px; /* Distancia desde el borde derecho del header */
+}
+
+header h1 {
+    font-size: 2.5em; /* Tamaño de fuente para el título principal */
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em; /* Tamaño de fuente para el párrafo */
+}
+
+/* Estilos del contenedor del reloj */
+/* Estilos del contenedor del reloj (AJUSTADO A CUADRO FINO, GRIS Y TRANSLÚCIDO) */
+.contenedor {
+    background: rgba(105, 105, 105, 0.7); /* Gris claro con 70% de opacidad */
+    padding: 30px; /* Padding reducido para hacerlo más "fino" */
+    margin: 150px auto; /* Centrar el contenedor y darle un margen superior */
+    text-align: center;
+    border-radius: 10px;
+    width: auto; /* Ancho automático para que se ajuste al contenido */
+    max-width: 350px; /* Un ancho máximo más ajustado para el reloj */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra sutil para darle profundidad */
+    border: 1px solid rgba(150, 150, 150, 0.5); /* Borde gris más claro y sutil */
+    /* Removido box-sizing: 0; que era un error. */
+}
+
+.contenedor h1 {
+    color: gainsboro; /* Mantiene el verde oscuro del título "Reloj Digital" */
+    margin-bottom: 25px;
+    font-size: 1.8em; /* Ajuste el tamaño del título del reloj */
+}
+
+/* Estilos del reloj en sí (AJUSTADO PARA LA NUEVA HORA) */
+#reloj {
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 3em; /* Tamaño de fuente para la hora */
+    color: #333; /* Color de texto oscuro para la hora */
+    background-color: rgba(255, 255, 255, 0.7); /* Blanco con transparencia para el fondo de la hora */
+    padding: 10px 20px; /* Padding más ajustado para la hora */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    display: inline-block;
+    letter-spacing: 1px; /* Espaciado entre caracteres sutil */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra interna muy sutil */
+    border: 1px solid rgba(200, 200, 200, 0.5); /* Borde claro para la caja de la hora */
+}
+
+/* El resto de tu CSS (body, header, footer) se mantiene como en la respuesta anterior */
+/* Solo se han modificado .contenedor y #reloj */   
+/* Estilos del footer */
+footer {
+    background: #054112;
+    text-align: center;
+    color: white;
+    padding: 36px;
+    margin-top: 165px;
+    width: 100%;
+}
+
